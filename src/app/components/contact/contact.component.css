@@ -1,0 +1,18 @@
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, 0.25);
+    font-size: 1.25rem;
+}
+label{
+    color: gray;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    form{
+        width: 90% !important;
+    }
+}

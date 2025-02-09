@@ -1,0 +1,26 @@
+nav {
+    transition: ease 0.3s;
+}
+
+.navbar-brand {
+    letter-spacing: .0313rem;
+}
+
+.active {
+    background-color: var(--sec-color);
+    transition: 0.3s ease; 
+    padding-inline: 10px;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+.nav-link{
+    width: fit-content;
+    border-radius: .625rem;
+    letter-spacing: .0313rem;
+}

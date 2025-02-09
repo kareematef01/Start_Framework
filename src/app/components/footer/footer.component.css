@@ -1,0 +1,29 @@
+footer ul li{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: #fff solid 1px;
+    border-radius: 50%;
+    margin-inline: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+footer{
+    padding-block: 5.625rem;
+}
+li:hover{
+    background-color: var(--sec-color);
+}
+h3{
+    text-transform: capitalize; 
+    letter-spacing: 0.5px;
+}
+.copy-right{
+    background-color:#192e42 ;
+}
+
+li i{
+    font-size: 20px;
+}

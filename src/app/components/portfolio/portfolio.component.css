@@ -1,0 +1,14 @@
+figcaption{
+    opacity: 0;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+figure:hover figcaption{
+    opacity:0.9;
+
+}
+@media (max-width: 768px) {
+    .model .image{
+        width: 100% !important;
+    }
+}

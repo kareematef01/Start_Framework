@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --main-color: #2c3e50;
+    --sec-color: #1abc9c;
+}
+body{
+    font-family:;
+}
+.bg-main {
+    background-color: var(--main-color);
+}
+
+.bg-sec {
+    background-color: var(--sec-color);
+}
+
+.txt-main-color {
+    color: var(--main-color);
+}
+
+.txt-sec-color {
+    color: var(--sec-color);
+}
+
+.btn-main {
+    background-color: var(--main-color);
+    padding: 10px 25px;
+    color: #fff;
+    outline: unset;
+    border: none;
+    border-radius: 10px;
+    transition: ease 0.3s;
+}
+.btn-main:hover{
+    background-color: rgb(29, 84, 135);
+    
+}
+a,a:active{
+    color: #fff !important;
+    text-decoration: none;
+}
+.pt-100{
+    padding-top:  8.125rem;
+}
